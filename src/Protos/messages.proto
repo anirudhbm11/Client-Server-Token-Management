@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+option go_package = "github.com/anirudhbm11/Client-Server-Token-Manager";
+
+package Protos;
+
+/*
+Command for compiling proto file
+
+protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative Protos/messages.proto
+*/
+
+message CreateToken {
+    string id = 1;
+    uint64 stamp = 2;
+}
+
+message DropToken {
+    string id = 1;
+    uint64 stamp = 2;
+}
+
+message WriteToken {
+    string id = 1;
+    string name = 2;
+    uint64 low = 3;
+    uint64 mid = 4;
+    uint64 high = 5;
+    uint64 stamp = 6;
+}
+
+message ReadToken {
+    string id = 1;
+    uint64 stamp = 2;
+}
+
+message create_response {
+    string res = 1;
+}
+
+message create_replicate_response {
+    string res = 1;
+}
+
+message drop_response {
+    string res = 1;
+}
+
+message write_response {
+    uint64 res = 1;
+}
+
+message write_replicate_response {
+    uint64 res = 1;
+}
+
+message read_response {
+    uint64 res = 1;
+}
+
+message ReadWriteToken {
+    string id = 1;
+}
+
+message read_write_response {
+    string id = 1;
+    string name = 2;
+    uint64 low = 3;
+    uint64 mid = 4;
+    uint64 high = 5;
+    uint64 stamp = 6;
+    uint64 partialvalue = 7;
+    uint64 finalvalue = 8;
+}
+
+service TokenMgmt {
+    rpc CreateRequest(CreateToken) returns (create_response){};
+    rpc DropRequest(DropToken) returns (drop_response){};
+    rpc WriteRequest(WriteToken) returns (write_response){};
+    rpc ReadRequest(ReadToken) returns (read_response){};
+    rpc CreateReplicate(CreateToken) returns (create_replicate_response){};
+    rpc WriteReplicate(WriteToken) returns (write_replicate_response){};
+    rpc ReadWrite(ReadWriteToken) returns (read_write_response){};
+}

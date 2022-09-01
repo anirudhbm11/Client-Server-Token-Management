@@ -1,0 +1,22 @@
+2022/05/17 22:15:13 Token received for creating is: 100
+2022/05/17 22:15:13 Token details of created token: 
+2022/05/17 22:15:13 map[100:{100  {0 0 0} {0 0 1652840112}}]
+2022/05/17 22:15:13 List of IDs in server: 
+2022/05/17 22:15:13 100
+2022/05/17 22:15:13 Done creating token with ID:  100
+2022/05/17 22:15:13 Token to create: 100
+2022/05/17 22:15:19 map[100:{100  {0 0 0} {0 0 1652840112}}]
+2022/05/17 22:15:19 List of IDs in server: 
+2022/05/17 22:15:19 100
+2022/05/17 22:15:19 Done Replicating token with ID:  100
+2022/05/17 22:15:19 Replicating Token: Replication Success in port 8088
+2022/05/17 22:15:19 map[100:{100  {0 0 0} {0 0 1652840112}}]
+2022/05/17 22:15:19 List of IDs in server: 
+2022/05/17 22:15:19 100
+2022/05/17 22:15:19 Done Replicating token with ID:  100
+2022/05/17 22:15:19 Replicating Token: Replication Success in port 8085
+2022/05/17 22:15:19 map[100:{100  {0 0 0} {0 0 1652840112}}]
+2022/05/17 22:15:19 List of IDs in server: 
+2022/05/17 22:15:19 100
+2022/05/17 22:15:19 Done Replicating token with ID:  100
+2022/05/17 22:15:19 Replicating Token: Replication Success in port 8046

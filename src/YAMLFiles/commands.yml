@@ -1,0 +1,15 @@
+- token: 1234
+  writer: "localhost:8088"
+  readers: 
+        - "localhost:8085"
+- token: 41
+  writer: "localhost:8088"
+  readers: 
+        - "localhost:8012"
+- token: 100
+  writer: "localhost:8012"
+  readers: 
+        - "localhost:8088"
+        - "localhost:8085"
+        - "localhost:8046"
+

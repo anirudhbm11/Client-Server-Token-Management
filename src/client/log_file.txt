@@ -1,0 +1,139 @@
+2022/05/17 23:21:50 Token received for creating is: 1234
+2022/05/17 23:21:50 Token details of created token: 
+2022/05/17 23:21:50 map[1234:{1234  {0 0 0} {0 0 1652844108}}]
+2022/05/17 23:21:50 List of IDs in server: 
+2022/05/17 23:21:50 1234
+2022/05/17 23:21:50 Done creating token with ID:  1234
+2022/05/17 23:21:50 Token to create/read: 1234
+2022/05/17 23:21:54 map[1234:{1234  {0 0 0} {0 0 1652844108}}]
+2022/05/17 23:21:54 List of IDs in server: 
+2022/05/17 23:21:54 1234
+2022/05/17 23:21:54 Done Replicating token with ID:  1234
+2022/05/17 23:21:54 Replicating Token: Replication Success in port 8085
+2022/05/17 23:21:56 Token received for creating is: 41
+2022/05/17 23:21:56 Token details of created token: 
+2022/05/17 23:21:56 map[1234:{1234  {0 0 0} {0 0 1652844108}} 41:{41  {0 0 0} {0 0 1652844116}}]
+2022/05/17 23:21:56 List of IDs in server: 
+2022/05/17 23:21:56 1234
+2022/05/17 23:21:56 41
+2022/05/17 23:21:56 Done creating token with ID:  41
+2022/05/17 23:21:56 Token to create/read: 41
+2022/05/17 23:22:00 map[41:{41  {0 0 0} {0 0 1652844116}}]
+2022/05/17 23:22:00 List of IDs in server: 
+2022/05/17 23:22:00 41
+2022/05/17 23:22:00 Done Replicating token with ID:  41
+2022/05/17 23:22:00 Replicating Token: Replication Success in port 8012
+2022/05/17 23:22:00 Token to create/read: 41
+2022/05/17 23:22:11 Token received for creating is: 100
+2022/05/17 23:22:11 Token details of created token: 
+2022/05/17 23:22:11 map[100:{100  {0 0 0} {0 0 1652844131}} 41:{41  {0 0 0} {0 0 1652844116}}]
+2022/05/17 23:22:11 List of IDs in server: 
+2022/05/17 23:22:11 41
+2022/05/17 23:22:11 100
+2022/05/17 23:22:11 Done creating token with ID:  100
+2022/05/17 23:22:11 Token to create/read: 100
+2022/05/17 23:22:15 map[100:{100  {0 0 0} {0 0 1652844131}} 1234:{1234  {0 0 0} {0 0 1652844108}} 41:{41  {0 0 0} {0 0 1652844116}}]
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 1234
+2022/05/17 23:22:15 41
+2022/05/17 23:22:15 Done Replicating token with ID:  100
+2022/05/17 23:22:15 Replicating Token: Replication Success in port 8088
+2022/05/17 23:22:15 map[100:{100  {0 0 0} {0 0 1652844131}} 1234:{1234  {0 0 0} {0 0 1652844108}}]
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 1234
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 Done Replicating token with ID:  100
+2022/05/17 23:22:15 Replicating Token: Replication Success in port 8085
+2022/05/17 23:22:15 map[100:{100  {0 0 0} {0 0 1652844131}}]
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 Done Replicating token with ID:  100
+2022/05/17 23:22:15 Replicating Token: Replication Success in port 8046
+2022/05/17 23:22:15 Token details after write are: 
+2022/05/17 23:22:15 {100 abc {0 10 100} {2207634929195471568 60570345165277511 1652844135}}
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 41
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 Writing with name:  abc  done   in port  8012
+2022/05/17 23:22:15 Token to create/read: 100
+2022/05/17 23:22:15 Writing with name: abc in port: 8088
+2022/05/17 23:22:15 Token details after write are: 
+2022/05/17 23:22:15 {100 abc {0 10 100} {2207634929195471568 60570345165277511 1652844135}}
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 1234
+2022/05/17 23:22:15 41
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 Writing with name:  abc  done.
+2022/05/17 23:22:15 Replication of write success: 2207634929195471568
+2022/05/17 23:22:15 Writing with name: abc in port: 8085
+2022/05/17 23:22:15 Token details after write are: 
+2022/05/17 23:22:15 {100 abc {0 10 100} {2207634929195471568 60570345165277511 1652844135}}
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 1234
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 Writing with name:  abc  done.
+2022/05/17 23:22:15 Replication of write success: 2207634929195471568
+2022/05/17 23:22:15 Writing with name: abc in port: 8046
+2022/05/17 23:22:15 Token details after write are: 
+2022/05/17 23:22:15 {100 abc {0 10 100} {2207634929195471568 60570345165277511 1652844135}}
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 Writing with name:  abc  done.
+2022/05/17 23:22:15 Replication of write success: 2207634929195471568
+2022/05/17 23:22:15 
+
+2022/05/17 23:22:15 
+
+2022/05/17 23:22:15 Token to create/read: 100
+2022/05/17 23:22:15 Final value of token is: 
+2022/05/17 23:22:15 60570345165277511
+2022/05/17 23:22:15 1652844135
+2022/05/17 23:22:15  in Port: localhost:8088
+2022/05/17 23:22:15 Final value of token is: 
+2022/05/17 23:22:15 60570345165277511
+2022/05/17 23:22:15 1652844135
+2022/05/17 23:22:15  in Port: localhost:8085
+2022/05/17 23:22:15 {100 abc 0 10 100 1652844135 60570345165277511}
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 
+
+2022/05/17 23:22:15 
+
+2022/05/17 23:22:15 Token details after write are: 
+2022/05/17 23:22:15 {100 abc {20 50 200} {295380710341298243 60570345165277511 1652844135}}
+2022/05/17 23:22:15 List of IDs in server: 
+2022/05/17 23:22:15 100
+2022/05/17 23:22:15 41
+2022/05/17 23:22:15 Writing with name:  abc  done   in port  8012
+2022/05/17 23:22:15 Token to create/read: 100
+2022/05/17 23:22:16 Writing with name: abc in port: 8088
+2022/05/17 23:22:16 Token details after write are: 
+2022/05/17 23:22:16 {100 abc {20 50 200} {295380710341298243 60570345165277511 1652844135}}
+2022/05/17 23:22:16 List of IDs in server: 
+2022/05/17 23:22:16 1234
+2022/05/17 23:22:16 41
+2022/05/17 23:22:16 100
+2022/05/17 23:22:16 Writing with name:  abc  done.
+2022/05/17 23:22:16 Replication of write success: 295380710341298243
+2022/05/17 23:22:16 Writing with name: abc in port: 8085
+2022/05/17 23:22:16 Token details after write are: 
+2022/05/17 23:22:16 {100 abc {20 50 200} {295380710341298243 60570345165277511 1652844135}}
+2022/05/17 23:22:16 List of IDs in server: 
+2022/05/17 23:22:16 1234
+2022/05/17 23:22:16 100
+2022/05/17 23:22:16 Writing with name:  abc  done.
+2022/05/17 23:22:16 Replication of write success: 295380710341298243
+2022/05/17 23:22:16 Writing with name: abc in port: 8046
+2022/05/17 23:22:16 Token details after write are: 
+2022/05/17 23:22:16 {100 abc {20 50 200} {295380710341298243 60570345165277511 1652844135}}
+2022/05/17 23:22:16 List of IDs in server: 
+2022/05/17 23:22:16 100
+2022/05/17 23:22:16 Writing with name:  abc  done.
+2022/05/17 23:22:16 Replication of write success: 295380710341298243
+2022/05/17 23:22:16 
+
+2022/05/17 23:22:16 
+
+2022/05/17 23:22:16 Token to create/read: 1234
